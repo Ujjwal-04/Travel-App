@@ -2136,3 +2136,6 @@ document.addEventListener("keydown", e => {
     loadWeather(18.5204, 73.8567, BOOT_GENERATION)
   ]);
 })();
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`✅ TravelX server running on http://0.0.0.0:${PORT}`);
+});
