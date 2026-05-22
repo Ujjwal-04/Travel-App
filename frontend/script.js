@@ -10,7 +10,7 @@
 const _OPENCAGE_KEY    = "f9c9cb6be0c944149e57d5cce7b10b55";
 const _OPENTRIPMAP_KEY = "5ae2e3f221c38a28845f05b6b9ffb0011633af45fbf6f1d1760f33d1";
 const _OPENWEATHER_KEY = "15b9d664deb34d1d32785f95cf33914e";
-const SERVER_BASE      = "/api";
+const SERVER_BASE      = "";
 
 const API = {
   _tryServer: async (url) => {
